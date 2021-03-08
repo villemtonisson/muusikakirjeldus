@@ -2,10 +2,16 @@
 set FLASK_APP=hello.py
 flask run
 
+# For development
 set FLASK_ENV=development
+# For production
+set FLASK_DEBUG=0
 
 ## UNIX
 export FLASK_APP=hello.py
 flask run
 
+# For development
 export FLASK_ENV=development
+# For production
+export FLASK_DEBUG=0
