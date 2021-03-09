@@ -7,5 +7,12 @@
 {% block body %}
 <div class="content">
     <h1 style="text-align: center">Muusika Kirjeldus</h1>
+
+    <form action=/ method="POST"
+          enctype=multipart/form-data>
+      <input type="file" id="myFile" name="filename">
+      <input type="submit">
+    </form>
+
 </div>
 {% endblock %}

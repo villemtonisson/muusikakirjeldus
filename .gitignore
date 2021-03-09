@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Program specifics
+!uploads/.gitkeep
+uploads/*
+
 # C extensions
 *.so
 
